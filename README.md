@@ -5,3 +5,8 @@ first download `dep.py`. then `import dep`. then do
 dep.dependencies([dependencies])
 ```
 this installs the dependencies with `pip`.
+example:
+```py
+import dep
+dep.dependencies(["bs4", "request", "flask"])
+```
