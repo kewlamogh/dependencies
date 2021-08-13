@@ -1,4 +1,4 @@
 import dep
-dep.dependencies(["bs4", "requests", "random"])
-import bs4, requests, random
+dep.dependencies(["random"])
+import random
 print(random.randint(20, 40))
