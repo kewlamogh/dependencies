@@ -1,3 +1,4 @@
-import webscraper
-w = webscraper.WebScraper("https://replit.com", [False, None])
-print(w.getElementById("oof"))
+import dep
+dep.dependencies(["bs4", "requests", "random"])
+import bs4, requests, random
+print(random.randint(20, 40))
